@@ -10,10 +10,12 @@
 }
 .doing-list {
   display: flex;
+
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.doing-list .item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .doing-wrapper-text {
   font-weight: 700;
   font-size: 14px;

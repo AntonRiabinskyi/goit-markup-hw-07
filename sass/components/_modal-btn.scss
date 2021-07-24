@@ -19,8 +19,9 @@
   width: 30px;
   height: 30px;
   fill: currentColor;
-}
-.modal-button:hover .modal-button-icon,
-.modal-button:focus .modal-button-icon {
-  fill: var(--accent-color);
+
+  .modal-button:hover &,
+  .modal-button:focus & {
+    fill: var(--accent-color);
+  }
 }

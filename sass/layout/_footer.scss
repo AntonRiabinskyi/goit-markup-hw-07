@@ -26,33 +26,29 @@
 .address-nav {
   min-width: 231px;
   min-height: 81px;
-}
 
-.address-nav .address-link {
-  font-style: normal;
-  color: var(--second-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  & .address-link {
+    color: var(--second-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+  }
 
-  text-decoration: none;
-}
-.address-nav .nav-link {
-  color: var(--second-transparent-color);
-
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
-  text-decoration: none;
+  & .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--second-transparent-color);
+  }
 }
 .footer-address-item {
   margin-bottom: 9px;
 }
-/*Social-Link-Footer*/
-/*Footer-Form*/
 .footer-form-link {
   margin-left: 93px;
 }
